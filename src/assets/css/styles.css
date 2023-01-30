@@ -1,0 +1,26 @@
+html, body {
+    background-color: #f1f1f1;
+    margin: 0px;
+}
+
+h1{
+    margin-top: 0;
+}
+
+.pokemon-container{
+    background-image: url('../images/bg-pokemon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px;
+}
+
+.pokemon-container img{
+    margin-left: -300px;
+    margin-top: -20px;
+}
+
+.disabled{
+    background-color: #f1f1f1 !important;
+    pointer-events: none
+}
